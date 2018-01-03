@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF">
+
+
+
+            <LinearLayout
+                android:id="@+id/controlLayout"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/gongjulanbeijing"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/btn_drawer"
+                    tools:visibility="visible"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/chouti" />
+
+                <ImageView
+                    android:id="@+id/btn_stroke"
+                    android:layout_width="6.5dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/bi" />
+
+                <ImageView
+                    android:id="@+id/btn_xuanze"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/xuanze" />
+
+
+                <ImageView
+                    android:id="@+id/btn_eraser"
+                    android:layout_width="24dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/xiangpi" />
+
+                <ImageView
+                    android:id="@+id/btn_xinghzunag"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/yuanxinggongju" />
+
+                <ImageView
+                    android:id="@+id/btn_background"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/beijinggongju" />
+
+                <ImageView
+                    android:id="@+id/btn_drag"
+                    android:layout_width="15dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/shouzhi" />
+
+                <ImageView
+                    android:id="@+id/btn_zujian"
+                    android:layout_width="21dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/zujian" />
+                <ImageView
+                    android:id="@+id/btn_add"
+                    style="@style/control_btn"
+                    android:src="@drawable/ic_add_small"
+                    android:visibility="gone"
+                    />
+
+                <ImageView style="@style/control_btn.space" />
+
+
+                <ImageView
+                    android:id="@+id/btn_undo"
+                    style="@style/control_btn"
+                    android:alpha="0.4"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_undo" />
+
+                <ImageView
+                    android:id="@+id/btn_redo"
+                    style="@style/control_btn"
+                    android:alpha="0.4"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_redo" />
+
+                <ImageView style="@style/control_btn.space" />
+
+                <ImageView
+                    android:id="@+id/btn_photo"
+                    style="@style/control_btn"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_photo" />
+
+                <ImageView style="@style/control_btn.space" />
+
+                <ImageView
+                    android:id="@+id/btn_save"
+                    style="@style/control_btn"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_file" />
+
+                <ImageView
+                    android:id="@+id/btn_empty"
+                    style="@style/control_btn"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_empty" />
+
+
+                <ImageView
+                    android:id="@+id/btn_send_space"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    style="@style/control_btn.space" />
+
+                <ImageView
+                    android:id="@+id/btn_send"
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    style="@style/control_btn"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_teacher" />
+
+
+            </LinearLayout>
+
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_width="53dp"
+            android:background="@drawable/maoboli"
+            />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            >
+            <LinearLayout
+                android:id="@+id/top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/gongjulanbeijing"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/luping_img"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/luzhi"
+                    />
+                <ImageView
+                    android:id="@+id/zanting_img"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/zanting"
+                    />
+                <ImageView
+                    android:id="@+id/baocun_img"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baocun"
+                    />
+                <ImageView
+                    android:id="@+id/shanchu_img"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/shanchu"
+                    />
+                <ImageView
+                    android:id="@+id/yeqian_img"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/yeqian"
+                    />
+                <ImageView
+                    android:id="@+id/lianjiebi_img"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/lianjiebi"
+                    />
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_below="@+id/top_layout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/include_draw_content_layout" />
+
+                <!--<include layout="@layout/include_grid_view_layout" />-->
+            </FrameLayout>
+        </RelativeLayout>
+
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="53dp"
+        android:background="@drawable/maoboli"
+        />
+
+    </LinearLayout>
